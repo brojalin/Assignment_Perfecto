@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\Perfecto_SamplePjct\MapProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.GoogleMapsTest" hash-for-method="findTimeToNearByRestaurant(San Francisco,SFO, restaurants)">findTimeToNearByRestaurant(San Francisco,SFO, restaurants)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.GoogleMapsTest" hash-for-method="findTimeToNearByRestaurant(New York,NYC, restaurants)">findTimeToNearByRestaurant(New York,NYC, restaurants)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.GoogleMapsTest" hash-for-method="findTimeToNearByRestaurant(Los Angeles,LAX, restaurants)">findTimeToNearByRestaurant(Los Angeles,LAX, restaurants)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.GoogleMapsTest" hash-for-method="findTimeToReachSpecificPlace(27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy, Vatican Museums)">findTimeToReachSpecificPlace(27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy, Vatican Museums)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.GoogleMapsTest" hash-for-method="findTimeToReachSpecificPlace(218-223 Piccadilly Circus, London W1V 9LB, United Kingdom, Oxford Circus Station)">findTimeToReachSpecificPlace(218-223 Piccadilly Circus, London W1V 9LB, United Kingdom, Oxford Circus Station)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.GoogleMapsTest" hash-for-method="findTimeToReachSpecificPlace(Centre Saint-Michel, Boulevard Saint-Michel, Paris, France, Cité scolaire Lavoisier (Middle School a...)">findTimeToReachSpecificPlace(Centre Saint-Michel, Boulevard Saint-Michel, Paris, France, Cité scolaire Lavoisier (Middle School a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.GoogleMapsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTimeToNearByRestaurant(San Francisco,SFO, restaurants)">
+                  </a> <!-- findTimeToNearByRestaurant(San Francisco,SFO, restaurants) -->
+                  <span class="method-name">findTimeToNearByRestaurant</span>
+                  <span class="parameters">(San Francisco,SFO, restaurants)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTimeToNearByRestaurant(New York,NYC, restaurants)">
+                  </a> <!-- findTimeToNearByRestaurant(New York,NYC, restaurants) -->
+                  <span class="method-name">findTimeToNearByRestaurant</span>
+                  <span class="parameters">(New York,NYC, restaurants)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTimeToNearByRestaurant(Los Angeles,LAX, restaurants)">
+                  </a> <!-- findTimeToNearByRestaurant(Los Angeles,LAX, restaurants) -->
+                  <span class="method-name">findTimeToNearByRestaurant</span>
+                  <span class="parameters">(Los Angeles,LAX, restaurants)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTimeToReachSpecificPlace(27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy, Vatican Museums)">
+                  </a> <!-- findTimeToReachSpecificPlace(27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy, Vatican Museums) -->
+                  <span class="method-name">findTimeToReachSpecificPlace</span>
+                  <span class="parameters">(27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy, Vatican Museums)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTimeToReachSpecificPlace(218-223 Piccadilly Circus, London W1V 9LB, United Kingdom, Oxford Circus Station)">
+                  </a> <!-- findTimeToReachSpecificPlace(218-223 Piccadilly Circus, London W1V 9LB, United Kingdom, Oxford Circus Station) -->
+                  <span class="method-name">findTimeToReachSpecificPlace</span>
+                  <span class="parameters">(218-223 Piccadilly Circus, London W1V 9LB, United Kingdom, Oxford Circus Station)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findTimeToReachSpecificPlace(Centre Saint-Michel, Boulevard Saint-Michel, Paris, France, Cité scolaire Lavoisier (Middle School a...)">
+                  </a> <!-- findTimeToReachSpecificPlace(Centre Saint-Michel, Boulevard Saint-Michel, Paris, France, Cité scolaire Lavoisier (Middle School a...) -->
+                  <span class="method-name">findTimeToReachSpecificPlace</span>
+                  <span class="parameters">(Centre Saint-Michel, Boulevard Saint-Michel, Paris, France, Cité scolaire Lavoisier (Middle School and High School))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Perfecto_SamplePjct\MapProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;pakageName&quot; value=&quot;com.google.android.apps.maps&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;DEMO123&quot;/&gt;
+  &lt;parameter name=&quot;persona&quot; value=&quot;Georgia&quot;/&gt;
+  &lt;parameter name=&quot;host&quot; value=&quot;partners.perfectomobile.com&quot;/&gt;
+  &lt;parameter name=&quot;user&quot; value=&quot;demo@newtglobal.com&quot;/&gt;
+  &lt;parameter name=&quot;deviceID&quot; value=&quot;61944835&quot;/&gt;
+  &lt;test name=&quot;Find Time To Reach Near By Restaurant&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.GoogleMapsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;findTimeToNearByRestaurant&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.GoogleMapsTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Find Time To Reach Near By Restaurant --&gt;
+  &lt;test name=&quot;Find Time To Reach Specific Place&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.GoogleMapsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;findTimeToReachSpecificPlace&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.GoogleMapsTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Find Time To Reach Specific Place --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Find Time To Reach Near By Restaurant (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Find Time To Reach Specific Place (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'findTimeToNearByRestaurant')
+data.setCell(0, 2, 'test.GoogleMapsTest')
+data.setCell(0, 3, 52308);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'findTimeToReachSpecificPlace')
+data.setCell(1, 2, 'test.GoogleMapsTest')
+data.setCell(1, 3, 48641);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'findTimeToNearByRestaurant')
+data.setCell(2, 2, 'test.GoogleMapsTest')
+data.setCell(2, 3, 47912);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'findTimeToNearByRestaurant')
+data.setCell(3, 2, 'test.GoogleMapsTest')
+data.setCell(3, 3, 46197);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'findTimeToReachSpecificPlace')
+data.setCell(4, 2, 'test.GoogleMapsTest')
+data.setCell(4, 3, 46101);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'findTimeToReachSpecificPlace')
+data.setCell(5, 2, 'test.GoogleMapsTest')
+data.setCell(5, 3, 42382);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findTimeToNearByRestaurant(San Francisco,SFO, restaurants)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Map apps is reporting that it will take '5 min' to reach the nearby restaurant ( Restaurant Name: 'Perry's' )</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findTimeToNearByRestaurant(New York,NYC, restaurants)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Map apps is reporting that it will take '8 min' to reach the nearby restaurant ( Restaurant Name: 'Bouley' )</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findTimeToNearByRestaurant(Los Angeles,LAX, restaurants)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Map apps is reporting that it will take '2 min' to reach the nearby restaurant ( Restaurant Name: 'ink.sack' )</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findTimeToReachSpecificPlace(27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy, Vatican Museums)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Map apps is reporting that it will take '7 min' to reach 'Vatican Museums'</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findTimeToReachSpecificPlace(218-223 Piccadilly Circus, London W1V 9LB, United Kingdom, Oxford Circus Station)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Map apps is reporting that it will take '12 min' to reach 'Oxford Circus Station'</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findTimeToReachSpecificPlace(Centre Saint-Michel, Boulevard Saint-Michel, Paris, France, Cité scolaire Lavoisier (Middle School a...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Map apps is reporting that it will take '4 min' to reach 'Cité scolaire Lavoisier (Middle School and High School)'</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.GoogleMapsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">findTimeToNearByRestaurant</span>
+                <br/>
+                <span class="ignored-method-name">findTimeToReachSpecificPlace</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.GoogleMapsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeClass(partners.perfectomobile.com, demo@newtglobal.com, DEMO123, 61944835, com.google.android.apps.maps, G...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findTimeToNearByRestaurant(New York,NYC, restaurants)</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">52436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeClass(partners.perfectomobile.com, demo@newtglobal.com, DEMO123, 61944835, com.google.android.apps.maps, G...)</span>
+                <span class="method-start">81086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findTimeToNearByRestaurant(Los Angeles,LAX, restaurants)</span>
+                <span class="method-start">81086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">127283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeClass(partners.perfectomobile.com, demo@newtglobal.com, DEMO123, 61944835, com.google.android.apps.maps, G...)</span>
+                <span class="method-start">155597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findTimeToNearByRestaurant(San Francisco,SFO, restaurants)</span>
+                <span class="method-start">155607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">203519 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeClass(partners.perfectomobile.com, demo@newtglobal.com, DEMO123, 61944835, com.google.android.apps.maps, G...)</span>
+                <span class="method-start">226002 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findTimeToReachSpecificPlace(218-223 Piccadilly Circus, London W1V 9LB, United Kingdom, Oxford Circus Station)</span>
+                <span class="method-start">226002 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">274643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeClass(partners.perfectomobile.com, demo@newtglobal.com, DEMO123, 61944835, com.google.android.apps.maps, G...)</span>
+                <span class="method-start">297786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findTimeToReachSpecificPlace(Centre Saint-Michel, Boulevard Saint-Michel, Paris, France, Cité scolaire Lavoisier (Middle School a...)</span>
+                <span class="method-start">297786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">343887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeClass(partners.perfectomobile.com, demo@newtglobal.com, DEMO123, 61944835, com.google.android.apps.maps, G...)</span>
+                <span class="method-start">365913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">findTimeToReachSpecificPlace(27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy, Vatican Museums)</span>
+                <span class="method-start">365923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">408305 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

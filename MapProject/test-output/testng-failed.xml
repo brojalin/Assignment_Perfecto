@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="pakageName" value="com.google.android.apps.maps"/>
+  <parameter name="password" value="DEMO123"/>
+  <parameter name="persona" value="Georgia"/>
+  <parameter name="host" value="partners.perfectomobile.com"/>
+  <parameter name="user" value="demo@newtglobal.com"/>
+  <parameter name="deviceID" value="61944835"/>
+  <test name="Find Time To Reach Near By Restaurant">
+    <classes>
+      <class name="test.GoogleMapsTest">
+        <methods>
+          <include name="findTimeToNearByRestaurant"/>
+        </methods>
+      </class> <!-- test.GoogleMapsTest -->
+    </classes>
+  </test> <!-- Find Time To Reach Near By Restaurant -->
+  <test name="Find Time To Reach Specific Place">
+    <classes>
+      <class name="test.GoogleMapsTest">
+        <methods>
+          <include name="findTimeToReachSpecificPlace"/>
+        </methods>
+      </class> <!-- test.GoogleMapsTest -->
+    </classes>
+  </test> <!-- Find Time To Reach Specific Place -->
+</suite> <!-- Failed suite [Suite] -->

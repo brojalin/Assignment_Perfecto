@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[ Map apps is reporting that it will take '8 min' to reach the nearby restaurant ( Restaurant Name: 'Bouley' )]]>
+    </line>
+    <line>
+      <![CDATA[ Map apps is reporting that it will take '2 min' to reach the nearby restaurant ( Restaurant Name: 'ink.sack' )]]>
+    </line>
+    <line>
+      <![CDATA[ Map apps is reporting that it will take '5 min' to reach the nearby restaurant ( Restaurant Name: 'Perry's' )]]>
+    </line>
+    <line>
+      <![CDATA[Map apps is reporting that it will take '12 min' to reach 'Oxford Circus Station']]>
+    </line>
+    <line>
+      <![CDATA[Map apps is reporting that it will take '4 min' to reach 'Cité scolaire Lavoisier (Middle School and High School)']]>
+    </line>
+    <line>
+      <![CDATA[Map apps is reporting that it will take '7 min' to reach 'Vatican Museums']]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="431517" started-at="2016-05-18T08:15:18Z" finished-at="2016-05-18T08:22:29Z">
+    <groups>
+    </groups>
+    <test name="Find Time To Reach Near By Restaurant" duration-ms="226665" started-at="2016-05-18T08:15:18Z" finished-at="2016-05-18T08:19:05Z">
+      <class name="test.GoogleMapsTest">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@380fb434]" name="beforeClass" is-config="true" duration-ms="128" started-at="2016-05-18T13:45:19Z" finished-at="2016-05-18T13:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[61944835]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.google.android.apps.maps]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="findTimeToNearByRestaurant(java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@380fb434]" name="findTimeToNearByRestaurant" duration-ms="52308" started-at="2016-05-18T13:45:19Z" data-provider="restaurantInput" finished-at="2016-05-18T13:46:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York,NYC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restaurants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Map apps is reporting that it will take '8 min' to reach the nearby restaurant ( Restaurant Name: 'Bouley' )]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findTimeToNearByRestaurant -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.GoogleMapsTest@380fb434]" name="afterClass" is-config="true" duration-ms="28650" started-at="2016-05-18T13:46:11Z" finished-at="2016-05-18T13:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@380fb434]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-18T13:46:40Z" finished-at="2016-05-18T13:46:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[61944835]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.google.android.apps.maps]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="findTimeToNearByRestaurant(java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@380fb434]" name="findTimeToNearByRestaurant" duration-ms="46197" started-at="2016-05-18T13:46:40Z" data-provider="restaurantInput" finished-at="2016-05-18T13:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Los Angeles,LAX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restaurants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Map apps is reporting that it will take '2 min' to reach the nearby restaurant ( Restaurant Name: 'ink.sack' )]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findTimeToNearByRestaurant -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.GoogleMapsTest@380fb434]" name="afterClass" is-config="true" duration-ms="28314" started-at="2016-05-18T13:47:26Z" finished-at="2016-05-18T13:47:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@380fb434]" name="beforeClass" is-config="true" duration-ms="10" started-at="2016-05-18T13:47:54Z" finished-at="2016-05-18T13:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[61944835]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.google.android.apps.maps]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="findTimeToNearByRestaurant(java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@380fb434]" name="findTimeToNearByRestaurant" duration-ms="47912" started-at="2016-05-18T13:47:54Z" data-provider="restaurantInput" finished-at="2016-05-18T13:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Francisco,SFO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restaurants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Map apps is reporting that it will take '5 min' to reach the nearby restaurant ( Restaurant Name: 'Perry's' )]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findTimeToNearByRestaurant -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.GoogleMapsTest@380fb434]" name="afterClass" is-config="true" duration-ms="22253" started-at="2016-05-18T13:48:42Z" finished-at="2016-05-18T13:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.GoogleMapsTest -->
+    </test> <!-- Find Time To Reach Near By Restaurant -->
+    <test name="Find Time To Reach Specific Place" duration-ms="204702" started-at="2016-05-18T08:19:05Z" finished-at="2016-05-18T08:22:29Z">
+      <class name="test.GoogleMapsTest">
+        <test-method status="PASS" signature="findTimeToReachSpecificPlace(java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="findTimeToReachSpecificPlace" duration-ms="48641" started-at="2016-05-18T13:49:05Z" data-provider="specificPlaceInput" finished-at="2016-05-18T13:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[218-223 Piccadilly Circus, London W1V 9LB, United Kingdom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Oxford Circus Station]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Map apps is reporting that it will take '12 min' to reach 'Oxford Circus Station']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findTimeToReachSpecificPlace -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-18T13:49:05Z" finished-at="2016-05-18T13:49:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[61944835]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.google.android.apps.maps]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="afterClass" is-config="true" duration-ms="23143" started-at="2016-05-18T13:49:53Z" finished-at="2016-05-18T13:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-05-18T13:50:17Z" finished-at="2016-05-18T13:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[61944835]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.google.android.apps.maps]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="findTimeToReachSpecificPlace(java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="findTimeToReachSpecificPlace" duration-ms="46101" started-at="2016-05-18T13:50:17Z" data-provider="specificPlaceInput" finished-at="2016-05-18T13:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Centre Saint-Michel, Boulevard Saint-Michel, Paris, France]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cité scolaire Lavoisier (Middle School and High School)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Map apps is reporting that it will take '4 min' to reach 'Cité scolaire Lavoisier (Middle School and High School)']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findTimeToReachSpecificPlace -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="afterClass" is-config="true" duration-ms="22026" started-at="2016-05-18T13:51:03Z" finished-at="2016-05-18T13:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="beforeClass" is-config="true" duration-ms="10" started-at="2016-05-18T13:51:25Z" finished-at="2016-05-18T13:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partners.perfectomobile.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@newtglobal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DEMO123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[61944835]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.google.android.apps.maps]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="findTimeToReachSpecificPlace(java.lang.String, java.lang.String)[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="findTimeToReachSpecificPlace" duration-ms="42382" started-at="2016-05-18T13:51:25Z" data-provider="specificPlaceInput" finished-at="2016-05-18T13:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[27/SC/A Piazza Mazzini Giuseppe, Roma, RM 00195, 00195, Italy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vatican Museums]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Map apps is reporting that it will take '7 min' to reach 'Vatican Museums']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- findTimeToReachSpecificPlace -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.GoogleMapsTest@3f2a3a5]" name="afterClass" is-config="true" duration-ms="22319" started-at="2016-05-18T13:52:07Z" finished-at="2016-05-18T13:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.GoogleMapsTest -->
+    </test> <!-- Find Time To Reach Specific Place -->
+  </suite> <!-- Suite -->
+</testng-results>
